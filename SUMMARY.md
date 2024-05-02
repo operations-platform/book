@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Operations](README.md)
+* [Operations GitOps](README.md)
