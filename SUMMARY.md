@@ -1,3 +1,6 @@
 # Table of contents
 
-* [Operations GitOps](README.md)
+* [Operations](README.md)
+* [GitOps](gitops.md)
+* [Site Manager](site-manager.md)
+* [Site Server](site-server.md)
