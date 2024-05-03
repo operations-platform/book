@@ -10,6 +10,25 @@ You create an alias file, and use `ash @alias $COMMAND` to run anything you want
 
 See [https://github.com/jonpugh/ash](https://github.com/jonpugh/ash).
 
+### Examples
+
+Given an alias like this:
+
+```
+# drush/sites/self.site.yml
+live:
+  host: servers.prod.thinkdrop.net
+  user: platform
+  root: /var/platform/Sites/thinkdrop/thinkdrop.net
+```
+
+Then you can run commands like this:
+
+```
+$ ash @live bash                                                                                                                                       13:03:59
+platform@servers:~/Sites/thinkdrop/thinkdrop.net/live$
+```
+
 ```sh
 $ ash @live drush status
                                                                                                                               12:48:01
