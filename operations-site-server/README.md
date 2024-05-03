@@ -139,6 +139,8 @@ Gain transparency into your cron process by using scheduled GitHub actions.
 
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>GitHub users get real-time feedback on the deployment of their code.</p></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Immediate and direct access to easy-to-read logs, with links to running sites.</p></figcaption></figure>
+
 <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>GitHub Pull Requests with Commit Checks and Deployments API integration. "View Deployment" is a direct link to the site</p></figcaption></figure>
 
 #### Environments & Deployments
