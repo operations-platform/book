@@ -2,6 +2,6 @@
 
 * [Operations Experience Platform](README.md)
 * [GitOps](gitops.md)
-* [Site Module & Site Manager](site-module-and-site-manager.md)
+* [Site Module & Site Manager](site-manager/README.md)
 * [Site Server](site-server.md)
-* [Ash: The Alias Shell](ash-the-alias-shell.md)
+* [ash: Drush Alias Shell](ash-drush-alias-shell.md)

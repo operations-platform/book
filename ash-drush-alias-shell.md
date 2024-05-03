@@ -4,7 +4,7 @@ description: >-
   servers via CLI.
 ---
 
-# Ash: The Alias Shell
+# ash: Drush Alias Shell
 
 You create an alias file, and use `ash @alias $COMMAND` to run anything you want remotely.
 

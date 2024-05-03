@@ -13,10 +13,10 @@ description: >-
 ### Tools
 
 1. Drupal Modules
-   1.  [Site.module](site-module-and-site-manager.md) - [https://www.drupal.org/project/site](https://www.drupal.org/project/site)&#x20;
+   1.  [Site.module](site-manager/) - [https://www.drupal.org/project/site](https://www.drupal.org/project/site)&#x20;
 
        _Drupal module for tracking and reporting site state._
-   2.  [Site Manager](site-module-and-site-manager.md) - [https://www.drupal.org/project/site\_manager](https://www.drupal.org/project/site\_manager)
+   2.  [Site Manager](site-manager/) - [https://www.drupal.org/project/site\_manager](https://www.drupal.org/project/site\_manager)
 
        _CMS for your websites._
 2. Hosting Solutions
