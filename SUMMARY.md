@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Operations Project](README.md)
-* [Operator Experience: OX](<README (1).md>)
+* [OX: Operator Experience](ox-operator-experience.md)
 * [Site Module & Site Manager](site-manager/README.md)
 * [Operations Site Server](operations-site-server.md)
   * [GitOps Hosting](gitops-hosting.md)
