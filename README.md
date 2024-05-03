@@ -10,6 +10,8 @@ This started in Drupal, but many tools and principles can be applied elsewhere.&
 
 [What is OX?](ox-operator-experience/)
 
+{% embed url="https://github.com/operations-project" %}
+
 ### Components
 
 1. Drupal Modules
