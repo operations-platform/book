@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Operations Project](README.md)
+* [Operations Experience Project](README.md)
 * [OX: Operator Experience](ox-operator-experience/README.md)
   * [Good OX](ox-operator-experience/good-ox.md)
 * [Operations Site Server](operations-site-server.md)
