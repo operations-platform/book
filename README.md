@@ -1,10 +1,10 @@
 ---
 description: >-
-  The Operations Project is a collection of tools and practices to improve
-  operator and developer experience.
+  The Operations Experience Project is a collection of tools and practices to
+  improve operator and developer experience.
 ---
 
-# Operations Project
+# Operations Experience Project
 
 This started in Drupal, but many tools and principles can be applied elsewhere.&#x20;
 
