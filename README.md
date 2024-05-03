@@ -8,7 +8,7 @@ description: >-
 
 This started in Drupal, but many tools and principles can be applied elsewhere.&#x20;
 
-[What is OX?](ox-operator-experience.md)
+[What is OX?](ox-operator-experience/)
 
 ### Components
 
