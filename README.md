@@ -20,14 +20,14 @@ description: >-
 
        _CMS for your websites._
 2. Hosting Solutions
-   1.  [Site Server](site-server.md)
+   1.  [Site Server](operations-site-server.md)
 
        _Simple web server powered by DDEV and self-hosted GitHub Runners._
-   2.  [Site Server GitHub Action](site-server.md)
+   2.  [Site Server GitHub Action](operations-site-server.md)
 
-       _GitHub Actions for running sites on Site Server._
+       _GitHub Action for running sites on Site Server._
 3. Developer Tools
-   1.  Ash CLI - [https://github.com/jonpugh/ash](https://github.com/jonpugh/ash)
+   1.  [Ash CLI](ash-drush-alias-shell.md) - [https://github.com/jonpugh/ash](https://github.com/jonpugh/ash)
 
        _The Alias Shell._
 

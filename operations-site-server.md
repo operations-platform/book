@@ -1,12 +1,10 @@
 ---
-description: Simple hosting with DDEV.
+description: Simple hosting with DDEV and Git Runners.
 ---
 
-# Site Server
+# Operations Site Server
 
-### Operations Site Server Ansible Collection
-
-Ansible roles for bootstrapping a server to run DDEV sites.
+Ansible roles for bootstrapping a server to run DDEV sites using GitHub runners.
 
 {% embed url="https://github.com/operations-platform/site-server/" %}
 

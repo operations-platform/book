@@ -8,7 +8,7 @@ description: All about Site Manager and how to use it.
 
 Site.module is a Drupal module that provides a way to track the state of your website over time.
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="245"><figcaption><p>Site state indicator.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="245"><figcaption><p>Site state indicator.</p></figcaption></figure>
 
 In addition to URLs, Site entities store properties about the site such as Last Cron, Install Time, PHP and Drupal Versions.&#x20;
 
@@ -16,7 +16,7 @@ It uses Drupal status report & Site Audit module to determine an overall state o
 
 Site entity properties are Drupal fields. This means that you can use any Drupal site building API to create your own Site Manager Dashboard.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>Site entity teaser. Field and Layout API compatible.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>Site entity teaser. Field and Layout API compatible.</p></figcaption></figure>
 
 Site entities have revisions for tracking site information over time. Event handlers can trigger a site revision, including a log message. This provides a history of changes over time, including what configuration changes occured.
 
