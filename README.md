@@ -1,35 +1,16 @@
 ---
 description: >-
-  Operator Experience (OX) is how a user interacts with and experiences
-  developing and operating a service such as a website. The Operations Project
-  is a set of tools and practices to improve OX.
+  The Operations Project is a collection of tools and practices to improve
+  operator and developer experience.
 ---
 
-# Operator Experience: OX
-
-### Definitions
-
-#### Operator Experience: OX
-
-Operator Experience (OX) is how a user interacts with and experiences developing and operating a service such as a website.&#x20;
-
-OX Design is the application of user experience principles to the tools used in development, testing, deployment, & monitoring services.
-
-#### Operator Experience Platform: OXP
-
-An "Operator Experience Platform" is any tool that is used to operate services.
-
-Examples of OXPs include Jenkins, Aegir, Acquia Cloud, Pantheon Dashboard, GitHub.com.
-
-### Tools
-
-#### Operations Project
-
-The **Operations Project** is a collection of tools to improve operator and developer experience that, combined, can be used as an Operator Experience Platform.
+# Operations Project
 
 This started in Drupal, but many tools and principles can be applied elsewhere.&#x20;
 
-#### Components
+[What is OX?](<README (1).md>)
+
+### Components
 
 1. Drupal Modules
    1.  [Site.module](site-manager/) - [https://www.drupal.org/project/site](https://www.drupal.org/project/site)&#x20;
