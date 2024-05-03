@@ -16,21 +16,21 @@ It uses Drupal status report & Site Audit module to determine an overall state o
 
 Site entity properties are Drupal fields. This means that you can use any Drupal site building API to create your own Site Manager Dashboard.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>Site entity teaser. Field and Layout API compatible.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>Site entity teaser. Field and Layout API compatible.</p></figcaption></figure>
 
 Site entities have revisions for tracking site information over time. Event handlers can trigger a site revision, including a log message. This provides a history of changes over time, including what configuration changes occured.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Site Manager
 
 Site Manager is used for storing information on many sites in one place. It has an API that allows it to receive site entities from remote sites.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>Projects dashboard. Site Manager has entities for Projects and environments</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt="" width="375"><figcaption><p>Projects dashboard. Site Manager has entities for Projects and environments</p></figcaption></figure>
 
 Since site.module lets a Drupal site post out from itself, any site hosted anywhere can send updates to a Site Manager. This includes CI environments, even ephemeral ones running in git runners or ones protected from behind a firewall.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt="" width="352"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt="" width="352"><figcaption></figcaption></figure>
 
 #### Site API
 
@@ -44,7 +44,7 @@ Non-Drupal systems can also post site information to a Site Manager via JSON:API
 
 
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Manage sites like content. Add site.module to give a site the ability to post itself back to a Site Manager.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Manage sites like content. Add site.module to give a site the ability to post itself back to a Site Manager.</p></figcaption></figure>
 

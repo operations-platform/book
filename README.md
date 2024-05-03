@@ -22,10 +22,10 @@ This started in Drupal, but many tools and principles can be applied elsewhere.&
 
        _CMS for your websites._
 2. Hosting Solutions
-   1.  [Site Server](operations-site-server.md)
+   1.  [Site Server](operations-site-server/)
 
        _Simple web server powered by DDEV and self-hosted GitHub Runners._
-   2.  [Site Server GitHub Action](operations-site-server.md)
+   2.  [Site Server GitHub Action](operations-site-server/)
 
        _GitHub Action for running sites on Site Server._
 3. Developer Tools
