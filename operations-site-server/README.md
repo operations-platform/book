@@ -16,9 +16,52 @@ Server installation scripts
 GitHub Action for launcing a site with DDEV
 {% endembed %}
 
-### Examples
 
-#### Continuously Deploy `main` branch to a live site.
+
+## Features
+
+### DDEV powered sites on the internet
+
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>The <code>ddev list</code> command run on an Operations Site Server.</p></figcaption></figure>
+
+### GitHub Actions for everything
+
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>GitHub Repository Actions interface.</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>Deployment task running from private server in GitHub UI.</p></figcaption></figure>
+
+### Cron runs
+
+Gain transparency into your cron process by using scheduled GitHub actions.
+
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>Cron runs brought to you by: GitHub Actions!</p></figcaption></figure>
+
+### Pull Request & Deployments Integration
+
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p>Use the GitHub interface for quickly making changes and submitting a pull request</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>GitHub users get real-time feedback on the deployment of their code.</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Immediate and direct access to easy-to-read logs, with links to running sites.</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>GitHub Pull Requests with Commit Checks and Deployments API integration. "View Deployment" is a direct link to the site</p></figcaption></figure>
+
+### Environments & Deployments
+
+By using GitHub Workflows, integration with Commit Statuses, Deployment API, and Environments is seamless. No custom code, no API integration.
+
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>GitHub's Environment interface shows every deployment to every environment.</p></figcaption></figure>
+
+### Secrets
+
+Store all sensitive info in GitHub repository secrets. Allows users to replace values when needed, such as for custom HTTPS certificates.
+
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+
+
+## Examples
+
+### Continuously Deploy `main` branch to a live site.
 
 ```yaml
 # ./github/workflows/deploy.yml
@@ -42,7 +85,7 @@ jobs:
         ddev-fqdns: yoursite.com,live.yoursite.com
 ```
 
-#### Deploy Preview Environments
+### Deploy Preview Environments
 
 ```yaml
 # ./github/workflows/pull-request-environment.yml
@@ -63,7 +106,7 @@ jobs:
         ddev-project-name: pr${{ github.event.number }}
 ```
 
-#### Delete Preview Environment
+### Delete Preview Environment
 
 ```yaml
 name: Delete Pull Request Environment
@@ -93,7 +136,7 @@ jobs:
           rm -rf ${{ env.DDEV_PROJECT_PATH_FULL }}
 ```
 
-#### Run Cron
+### Run Cron
 
 ```yaml
 name: Drupal Cron
@@ -114,48 +157,7 @@ jobs:
 ```
 
 
-
-### Features
-
-#### DDEV powered sites on the internet
-
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>The <code>ddev list</code> command run on an Operations Site Server.</p></figcaption></figure>
-
-#### GitHub Actions for everything
-
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>GitHub Repository Actions interface.</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>Deployment task running from private server in GitHub UI.</p></figcaption></figure>
-
-#### Cron runs
-
-Gain transparency into your cron process by using scheduled GitHub actions.
-
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>Cron runs brought to you by: GitHub Actions!</p></figcaption></figure>
-
-#### Pull Request & Deployments Integration
-
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p>Use the GitHub interface for quickly making changes and submitting a pull request</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>GitHub users get real-time feedback on the deployment of their code.</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Immediate and direct access to easy-to-read logs, with links to running sites.</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>GitHub Pull Requests with Commit Checks and Deployments API integration. "View Deployment" is a direct link to the site</p></figcaption></figure>
-
-#### Environments & Deployments
-
-By using GitHub Workflows, integration with Commit Statuses, Deployment API, and Environments is seamless. No custom code, no API integration.
-
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>GitHub's Environment interface shows every deployment to every environment.</p></figcaption></figure>
-
-#### Secrets
-
-Store all sensitive info in GitHub repository secrets. Allows users to replace values when needed, such as for custom HTTPS certificates.
-
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
-
-### Server Install
+## Server Install
 
 The repo contains Ansible roles to prepare a server for running sites like this:
 
@@ -171,7 +173,7 @@ Once installed, your server is ready to react to git pushes, running jobs from G
 
 With the right GitHub workflow config, PREs will be automatically created for Pull Requests, and environments can be created manually.
 
-### Site Server DDEV Action
+## Site Server DDEV Action
 
 GitHub action for deploying sites wtih DDEV.
 
