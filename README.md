@@ -5,7 +5,7 @@ description: >-
   is a set of tools and practices to improve OX.
 ---
 
-# Operator Experience
+# Operator Experience: OX
 
 ### Definitions
 
@@ -39,10 +39,10 @@ This started in Drupal, but many tools and principles can be applied elsewhere.&
 
        _CMS for your websites._
 2. Hosting Solutions
-   1.  [Site Server](operations-site-server/)
+   1.  [Site Server](operations-site-server.md)
 
        _Simple web server powered by DDEV and self-hosted GitHub Runners._
-   2.  [Site Server GitHub Action](operations-site-server/)
+   2.  [Site Server GitHub Action](operations-site-server.md)
 
        _GitHub Action for running sites on Site Server._
 3. Developer Tools

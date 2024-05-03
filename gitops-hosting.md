@@ -4,7 +4,7 @@ description: >-
   BitBucket, and GitLab for hosting and testing sites.
 ---
 
-# GitOps
+# GitOps Hosting
 
 ### Components
 
