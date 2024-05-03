@@ -1,16 +1,35 @@
 ---
 description: >-
-  Operations is a set of tools and practices for making building, testing, and
-  operating web software like Drupal easier.
+  Operator Experience (OX) is how a user interacts with and experiences
+  developing and operating a service such as a website. The Operations Project
+  is a set of tools and practices to improve OX.
 ---
 
-# Operations Experience Platform
+# Operator Experience
 
+### Definitions
 
+#### Operator Experience: OX
 
-{% embed url="https://github.com/operations-platform/" %}
+Operator Experience (OX) is how a user interacts with and experiences developing and operating a service such as a website.&#x20;
+
+OX Design is the application of user experience principles to the tools used in development, testing, deployment, & monitoring services.
+
+#### Operator Experience Platform: OXP
+
+An "Operator Experience Platform" is any tool that is used to operate services.
+
+Examples of OXPs include Jenkins, Aegir, Acquia Cloud, Pantheon Dashboard, GitHub.com.
 
 ### Tools
+
+#### Operations Project
+
+The **Operations Project** is a collection of tools to improve operator and developer experience that, combined, can be used as an Operator Experience Platform.
+
+This started in Drupal, but many tools and principles can be applied elsewhere.&#x20;
+
+#### Components
 
 1. Drupal Modules
    1.  [Site.module](site-manager/) - [https://www.drupal.org/project/site](https://www.drupal.org/project/site)&#x20;
@@ -20,10 +39,10 @@ description: >-
 
        _CMS for your websites._
 2. Hosting Solutions
-   1.  [Site Server](operations-site-server.md)
+   1.  [Site Server](operations-site-server/)
 
        _Simple web server powered by DDEV and self-hosted GitHub Runners._
-   2.  [Site Server GitHub Action](operations-site-server.md)
+   2.  [Site Server GitHub Action](operations-site-server/)
 
        _GitHub Action for running sites on Site Server._
 3. Developer Tools
