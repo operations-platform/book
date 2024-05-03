@@ -2,21 +2,17 @@
 description: Simple hosting with DDEV and Git Runners.
 ---
 
-# Operations Site Server
+# Site Runner
 
 GitHub workflows for private self-hosted hosting and testing environments.
 
-
-
-{% embed url="https://github.com/operations-platform/site-server/" %}
-Server installation scripts
+{% embed url="https://github.com/operations-project/site-runner-ddev" %}
+GitHub Action for launching DDEV sites.
 {% endembed %}
 
-{% embed url="https://github.com/operations-project/site-server-ddev" %}
-GitHub Action for launcing a site with DDEV
+{% embed url="https://github.com/operations-project/site-runner/" %}
+Ansible role for preparing a server for running sites.
 {% endembed %}
-
-
 
 ## Features
 
@@ -58,7 +54,6 @@ Store all sensitive info in GitHub repository secrets. Allows users to replace v
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-
 ## Examples
 
 ### Continuously Deploy `main` branch to a live site.
@@ -78,7 +73,7 @@ jobs:
       name: "live"
       url: "http://www.yoursite.com?${{ github.run_id }}"
     steps:
-    - uses: operations-platform/site-server-ddev@main
+    - uses: operations-project/site-runner-ddev@main
       with:
         path: projects/yoursite.com/live
         git-reference: main
@@ -99,7 +94,7 @@ jobs:
       name: "pr${{ github.event.number }}"
       url: "http://pr${{ github.event.number }}.ci.yoursite.com?${{ github.run_id }}"
     steps:
-    - uses: operations-platform/site-server-ddev@main
+    - uses: operations-project/site-runner-ddev@main
       with:
         sync: yes
         ddev-project-tld: ci.yoursite.com
@@ -156,25 +151,19 @@ jobs:
           ddev drush status
 ```
 
-
 ## Server Install
 
 The repo contains Ansible roles to prepare a server for running sites like this:
 
-1. Users.&#x20;
+1. Users.
    * Configures users from GitHub usernames with Sudo and SSH access.
    * Creates a `platform` user for cloning code, running jobs, and launching sites.
-2. DDEV.&#x20;
+2. DDEV.
    1. Installs and configures DDEV for "casual hosting".
 3. GitHub Runners
-   1. Installs and configures GitHub runners as a service.&#x20;
+   1. Installs and configures GitHub runners as a service.
 
 Once installed, your server is ready to react to git pushes, running jobs from GitHub workflow config files as the `platform` user.
 
 With the right GitHub workflow config, PREs will be automatically created for Pull Requests, and environments can be created manually.
 
-## Site Server DDEV Action
-
-GitHub action for deploying sites wtih DDEV.
-
-{% embed url="https://github.com/operations-platform/site-server-ddev" %}
