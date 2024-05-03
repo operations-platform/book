@@ -13,10 +13,10 @@ This started in Drupal, but many tools and principles can be applied elsewhere.&
 ### Components
 
 1. Drupal Modules
-   1.  [Site.module](site-manager/) - [https://www.drupal.org/project/site](https://www.drupal.org/project/site)&#x20;
+   1.  [Site.module](operations-tools/site-module-and-site-manager.md) - [https://www.drupal.org/project/site](https://www.drupal.org/project/site)&#x20;
 
        _Drupal module for tracking and reporting site state._
-   2.  [Site Manager](site-manager/) - [https://www.drupal.org/project/site\_manager](https://www.drupal.org/project/site\_manager)
+   2.  [Site Manager](operations-tools/site-module-and-site-manager.md) - [https://www.drupal.org/project/site\_manager](https://www.drupal.org/project/site\_manager)
 
        _CMS for your websites._
 2. Hosting Solutions
@@ -27,7 +27,7 @@ This started in Drupal, but many tools and principles can be applied elsewhere.&
 
        _GitHub Action for running sites on Site Server._
 3. Developer Tools
-   1.  [Ash CLI](ash-drush-alias-shell.md) - [https://github.com/jonpugh/ash](https://github.com/jonpugh/ash)
+   1.  [Ash CLI](operations-tools/ash-drush-alias-shell.md) - [https://github.com/jonpugh/ash](https://github.com/jonpugh/ash)
 
        _The Alias Shell._
 
